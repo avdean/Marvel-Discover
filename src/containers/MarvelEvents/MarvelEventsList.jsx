@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import axios from 'axios';
 import classes from './MarvelEvents.module.css'
-import { motion } from 'framer-motion'
 
 import Spinner from '../../UIComponents/Spinner/Spinner';
 // import Header from '../../UIComponents/Header/Header';
@@ -55,14 +54,11 @@ class MarvelEventsList extends Component {
       })
       }
         return (
-          <motion.div
-                  initial={{opacity: 0 }}
-                  animate={{opacity: 1 }}
-                  exit={{opacity: 0 }}>
+          <div>
                 <section className={classes.Events}>
                   {events}
                 </section>
-            </motion.div>
+            </div>
         );
       //  console.log(events);
     }
