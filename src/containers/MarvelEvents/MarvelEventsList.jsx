@@ -64,7 +64,7 @@ class MarvelEventsList extends Component {
                 </section>
             </motion.div>
         );
-        console.log(events);
+      //  console.log(events);
     }
 }
 export default MarvelEventsList;
