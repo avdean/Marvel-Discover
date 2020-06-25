@@ -1,6 +1,6 @@
-#Marvel-Discover
+# Marvel-Discover
 
-##What is it?
+## What is it?
 
 You can't do too much at the moment, but as I learn more about React, I'm hoping I can add more functionality. Currently you can only Marvel Comics events, and the see characters involved, I'm hoping to expand this in the future.
 
@@ -12,13 +12,13 @@ It's important to note, that due to the way Marvel's API works, it's limited to 
 
 Still it's for learning, so there's nothing wrong with that :)
 
-##Why build it?
+## Why build it?
 
 The app was created, both as a way to practice with React.js and learn more about using APIs, I decided to build Marvel-Discover, alongside the general React course I'm learning.
 
 I also wanted to explore a little more on Soft-Design, so the CSS (mostly made from Flexbox, and using React's CSS Modules) borrows heavily from this new style.
 
-##Technologies used
+## Technologies used
 
 - React.js
 - React-Router-Dom
