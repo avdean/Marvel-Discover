@@ -1,11 +1,11 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component } from 'react';
 import moment from 'moment';
 import axios from 'axios';
 import classes from './MarvelEvents.module.css'
 import { motion } from 'framer-motion'
 
 import Spinner from '../../UIComponents/Spinner/Spinner';
-import Header from '../../UIComponents/Header/Header';
+// import Header from '../../UIComponents/Header/Header';
 import MarvelEvent from '../../components/MarvelEvent/MarvelEvent';
 
 class MarvelEventsList extends Component {

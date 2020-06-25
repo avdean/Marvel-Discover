@@ -70,7 +70,7 @@ OffsetAddClickHandler = (event) => {
     const oldOffset = this.state.offset
     const updatedOffset = oldOffset + 20
     this.setState({offset: updatedOffset, prevDisabled: false});
-    if (updatedOffset +20 > this.state.charactersAvailable && this.state.offset != 0) {
+    if (updatedOffset +20 > this.state.charactersAvailable && this.state.offset !== 0) {
       this.setState({nextDisabled: true})
     }
     console.log(this.state.offset);

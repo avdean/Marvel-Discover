@@ -14,7 +14,7 @@ const marvelEvent = (props) => (
       transition={{ type: "spring", stiffness:100 }}
       className="Event">
       <div>
-        <img src={props.img}/>
+        <img src={props.img} alt={props.titiel}/>
         <h1>{props.title}</h1>
     </div>
     <div className="BottomEventSpace">

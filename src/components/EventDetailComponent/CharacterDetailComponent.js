@@ -11,7 +11,7 @@ const CharacterDetailComponent = (props) => {
       exit={{ opacity: 0 }}
       transition={{ease: "easeOut", duration: 2 }}
       className={classes.CharacterSnippet}>
-      <img src={props.image}/>
+      <img src={props.image} alt={props.name}/>
       <h4>{props.name}</h4>
     </motion.div>
   )

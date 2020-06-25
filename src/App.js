@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { Route, Switch, withRouter } from 'react-router-dom';
 import './App.css'
 
@@ -10,8 +9,6 @@ import EventDetail from './containers/EventDetail/EventDetail';
 import Footer from './UIComponents/Footer/Footer'
 
 function App(props) {
-
-let isNotHome = false
 
   return (
     <React.Fragment>

@@ -7,7 +7,7 @@ if (!props.next) {
   return (
 
     <div className={classes.EventFold}>
-      <img src={props.image}/>
+      <img src={props.image} alt={props.title}/>
       <div className={classes.EventText}>
         <h1>{props.title}</h1>
         <p>{props.description}</p>
