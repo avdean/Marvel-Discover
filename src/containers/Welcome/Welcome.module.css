@@ -1,0 +1,21 @@
+.Welcome {
+  margin-top: 20%;
+  margin-left:15%;
+  margin-right: 50%;
+  text-align: left;
+}
+@media (min-width: 800px) {
+  .Welcome {
+    margin-top: 15%;
+    margin-left:15%;
+    margin-right: 33%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Welcome {
+    margin-top: 20%;
+    margin-left:15%;
+    margin-right: 25%;
+  }
+}

@@ -1,0 +1,43 @@
+.Header {
+position:fixed;
+z-index: 999;
+}
+nav {
+  padding-left:70px;
+  margin-top: 50px;
+}
+
+@media (max-width:600px) {
+  nav {
+    padding-left:15px;
+    margin-top: 20px;
+  }
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+}
+
+.Header button {
+  width:50px;
+  height:50px;
+  border:none;
+  background:#2e3138;
+  border-radius: 16px;
+  box-shadow:
+  inset 0px 0px 0px #131417,
+  inset 0px 0px 0px #373A43,
+  2px 2px 5px #131417,
+  -2px -2px 5px #373A43;
+  transition: all 0.3s ease;
+
+}
+.Header button:hover {
+  box-shadow:
+  inset 2px 2px 5px #131417,
+  inset -2px -2px 5px #373A43;
+  transition: all 300ms ease;
+}

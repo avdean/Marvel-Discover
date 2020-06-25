@@ -1,0 +1,27 @@
+body {
+    background: #2E3138;
+    color:#96A7AF;
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+button {
+  font-family: 'Poppins',sans-serif;
+  font-weight:500;
+  letter-spacing: 2px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

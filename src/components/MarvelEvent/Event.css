@@ -1,0 +1,50 @@
+.Event {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+    box-sizing: border-box;
+    z-index: 100;
+    box-shadow:
+    10px 10px 20px #131417,
+    -5px -5px 10px #373A43;
+    border-radius: 15px;
+}
+
+.Event img {
+    width:100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.Event p {
+  padding: 16px;
+  flex-gow: 1;
+}
+
+@media (min-width:600px) {
+  .Event {
+    width:33%;
+  }
+}
+
+@media (min-width:1000px) {
+  .Event {
+    width:25%;
+  }
+}
+
+.Date {
+    margin: 16px 0;
+}
+
+.BottomEventSpace {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

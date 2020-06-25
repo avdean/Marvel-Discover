@@ -1,0 +1,36 @@
+.CharacterSnippet {
+display:flex;
+flex-direction: column;
+margin:2%;
+align-items: center;
+width:15%;
+box-shadow:
+10px 10px 20px #131417,
+-5px -5px 10px #373A43;
+border-radius:16px;
+}
+
+@media (max-width: 400px) {
+  .CharacterSnippet {
+  width:50%;
+  margin-top:2em;
+  }
+}
+
+@media (max-width: 600px) {
+  .CharacterSnippet {
+  width:30%;
+  margin:2em;
+  margin-top:1em;
+  }
+}
+
+.CharacterSnippet img {
+  width:100%;
+  border-top-left-radius:16px;
+  border-top-right-radius:16px;
+}
+
+.CharacterSnippet h4 {
+  margin: 15% 5%;
+}
