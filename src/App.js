@@ -13,7 +13,7 @@ function App(props) {
   return (
     <React.Fragment>
       <div className="App">
-        <AnimatePresence location={window.location} key={window.location.pathname}>
+        <AnimatePresence location={window.location} key={window.location.pathname} exitBeforeEnter>
           <Switch>
           <Route path="/" exact component={Welcome}/>
           <Route path="/marvel-events" exact component={MarvelEventsList}/>
