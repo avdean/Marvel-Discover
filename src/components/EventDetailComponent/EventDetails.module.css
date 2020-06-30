@@ -91,6 +91,13 @@ box-shadow:
   box-shadow:
   0px 0px 0px #131417,
   0px 0px 0px #373A43,
+  inset  3px 3px 6px #131417,
+  inset  -3px -3px 6px #FF292F;
+}
+.CharacterPage button:active {
+  box-shadow:
+  0px 0px 0px #131417,
+  0px 0px 0px #373A43,
   inset  5px 5px 10px #131417,
   inset  -5px -5px 10px #FF292F;
 }
