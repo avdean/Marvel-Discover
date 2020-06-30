@@ -12,7 +12,7 @@ if (!props.next) {
         <h1>{props.title}</h1>
         <p>{props.description}</p>
       </div>
-      <p>Since this event is pretty recent, there isn't much more information than this.</p>
+      <p className={classes.NoInfo}>Since this event is pretty recent, there isn't much more information than this.</p>
   </div>
 
   )
@@ -30,8 +30,10 @@ return (
       <h1>{props.title}</h1>
       <p>{props.description}</p>
     </div>
+    <div className={classes.EventDates}>
       <p><strong>First Issue: </strong>{props.StartDate}</p>
       <p><strong>Final Issue: </strong>{props.endDate}</p>
+    </div>
   </motion.div>
   <h2 style={{marginLeft:'10px'}}>Characters involved: </h2>
 </>)

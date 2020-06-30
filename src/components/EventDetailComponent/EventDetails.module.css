@@ -21,16 +21,10 @@
   0px 10px 20px #131417;
 }
 
-@media (min-width: 1000px) {
-.EventFold img {
-  width:500px;
-  }
-}
-
 .EventText {
   margin-top: 30px;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
   padding-left:5%;
   padding-right:5%;
   border-radius: 16px;
@@ -41,6 +35,40 @@
   inset -5px -5px 10px #daf2fe;
 }
 
+
+@media (min-width: 1000px) {
+.EventFold {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+  column-gap: 10px;
+  }
+  .EventDates {
+  margin-left: 6%;
+  margin-right:7%;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  }
+  .EventFold img {
+    margin:5%;
+    width:500px;
+  }
+  .NoInfo {
+    padding-left:6%;
+    padding-right:5%;
+  }
+  .EventText {
+    font-size: 1.4em;
+    height:500px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .characterDetails {
+    font-size: 1.6em;
+  }
+
+}
 .CharacterPage {
 display: flex;
 justify-content: space-around;
